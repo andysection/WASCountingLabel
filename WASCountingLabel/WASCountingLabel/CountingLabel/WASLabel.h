@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface WASLabel : UILabel
-- (void)makeAnimaionWithStartValue:(CGFloat)startValue EndValue:(CGFloat)EndValue Duration:(CGFloat)Duration;
+- (void)makeAnimaionWithStartValue:(CGFloat)startValue EndValue:(CGFloat)EndValue Duration:(double)Duration;
+- (void)AnimaionWithIntegerStartValue:(NSInteger)startValue EndValue:(NSInteger)EndValue Duration:(double)Duration;
 @end
